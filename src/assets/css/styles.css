@@ -1,0 +1,21 @@
+.contenido{
+	border: 2px solid black;
+	width: 400px;
+	height: 400px;
+}
+
+.formulario{
+	background: yellow;
+	display: block;
+	width: 80%;
+	height: 200px;
+	margin-left: 7%;
+	padding: 10px;
+}
+.formulario input{
+
+}
+
+.boton{
+	width: center;
+}
