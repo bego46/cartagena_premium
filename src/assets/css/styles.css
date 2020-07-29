@@ -1,7 +1,6 @@
 /*
 ............................................................................................................
 ............................................................................................................
-..........HOLA..............................................................................................
 SI HACES UN CAMBIO DEJA UNA NOTA............................................................................
 Y SI VES NECESARIO CREA UNA CLASS NUEVA EN LA ETIQUETA QUE NECESITES MODIFICAR,.............................
 YO LO HAGO PERO COMO NO SE QUE HACES NO LO HAGO YO..........................................................
@@ -14,10 +13,21 @@ YO LO HAGO PERO COMO NO SE QUE HACES NO LO HAGO YO..............................
 	padding: 0px;
 	text-decoration: none;
 	list-style: none;
-	color: black;
 	/* background-color: #c1c1c1; */
 	
 }
+
+@font-face{
+	font-family: "Nanum Myeongjo";
+	src: url(../font/NanumMyeongjo-Regular.ttf);
+	src: url(../font/NanumMyeongjo-Bold.ttf);
+}
+
+@font-face{
+	font-family: "Josefin Sans";
+	src: url(../font/JosefinSans-VariableFont_wght.ttf);
+}
+
 /* Body */
 body{
 	width: 500px;
@@ -30,23 +40,65 @@ body{
 	border-radius: 15px;
 }
 
+/* .direccion {
+	font-family: "Nanum Myeongjo";
+	color: red;
+} */
+
+
+/* cabecera */
+
+.cabecera {
+	display: flex;
+}
+
+.cabecera img{
+	width: 50%;
+	margin: 0px auto;
+
+}
+
+
+#chek-in a,
+#pago a{
+	font-family: "Nanum Myeongjo";
+	font-size: 50px;
+	color: #444;
+	
+}
+
 /* Contenido general */
 .contenido{
 	width: 90%;
-	margin: 0px auto;
-	line-height: 150px;
-	border: 1px solid black;
+	margin: 30px auto;
+	text-align: center;
+	padding: 20px 0px;
+	font-family: "Nanum Myeongjo";
 }
 
 .formulario{
-	border: 1px solid yellowgreen;
 	padding-top: 10px;
-	/* background: yellow;
 	display: block;
 	width: 80%;
-	height: 200px;
-	margin-left: 7%;
-	padding: 10px; */
+	margin: 0px auto;
+	text-align: center;
+	
+}
+
+.formulario input[type=text] {
+	width: 100%;
+	margin: 15px 0px;
+	font-family: "Josefin Sans";
+	font-size: 20px;
+	text-align: center;
+}
+
+.formulario input[type=submit] {
+	width: 50%;
+	height: 50px;
+	margin: 15px 0px;
+	font-family: "Josefin Sans";
+	font-size: 17px;
 }
 
 /* Internos */
@@ -58,5 +110,6 @@ body{
 	text-align: center;
 	margin: 10px auto;
 	font-size: 40px;
+	font-family: "Nanum Myeongjo";
 	
 }
