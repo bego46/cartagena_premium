@@ -1,21 +1,49 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	color: black;
+	/* background-color: #c1c1c1; */
+	
+}
+
+body{
+	width: 500px;
+	border: 1px solid #4444;
+	margin: 0px auto;
+	margin-top: 50px;
+	padding: 50px 40px;
+	min-height: 600px;
+	box-shadow: 2px 3px 4px #444;
+	border-radius: 15px;
+}
+
+#chek-in, #pago {
+	border: 1px solid #444;
+	width: 80%;
+	min-height: 150px;
+	line-height: 150px;
+	text-align: center;
+	margin: 10px auto;
+	font-size: 40px;
+	
+}
+
 .contenido{
-	border: 2px solid black;
-	width: 400px;
-	height: 400px;
+	width: 90%;
+	margin: 0px auto;
+	line-height: 150px;
+	border: 1px solid black;
 }
 
 .formulario{
-	background: yellow;
+	border: 1px solid yellowgreen;
+	padding-top: 10px;
+	/* background: yellow;
 	display: block;
 	width: 80%;
 	height: 200px;
 	margin-left: 7%;
-	padding: 10px;
-}
-.formulario input{
-
-}
-
-.boton{
-	width: center;
+	padding: 10px; */
 }
