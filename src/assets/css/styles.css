@@ -1,3 +1,14 @@
+/*
+............................................................................................................
+............................................................................................................
+..........HOLA..............................................................................................
+SI HACES UN CAMBIO DEJA UNA NOTA............................................................................
+Y SI VES NECESARIO CREA UNA CLASS NUEVA EN LA ETIQUETA QUE NECESITES MODIFICAR,.............................
+YO LO HAGO PERO COMO NO SE QUE HACES NO LO HAGO YO..........................................................
+............................................................................................................
+............................................................................................................
+*/
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -7,7 +18,7 @@
 	/* background-color: #c1c1c1; */
 	
 }
-
+/* Body */
 body{
 	width: 500px;
 	border: 1px solid #4444;
@@ -19,17 +30,7 @@ body{
 	border-radius: 15px;
 }
 
-#chek-in, #pago {
-	border: 1px solid #444;
-	width: 80%;
-	min-height: 150px;
-	line-height: 150px;
-	text-align: center;
-	margin: 10px auto;
-	font-size: 40px;
-	
-}
-
+/* Contenido general */
 .contenido{
 	width: 90%;
 	margin: 0px auto;
@@ -46,4 +47,16 @@ body{
 	height: 200px;
 	margin-left: 7%;
 	padding: 10px; */
+}
+
+/* Internos */
+#chek-in, #pago {
+	border: 1px solid #444;
+	width: 80%;
+	min-height: 150px;
+	line-height: 150px;
+	text-align: center;
+	margin: 10px auto;
+	font-size: 40px;
+	
 }
